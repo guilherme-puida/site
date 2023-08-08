@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 40rem;
+  font-family: system-ui, sans-serif;
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+main, article {
+  flex-grow: 1;
+}
+
+nav, footer {
+  display: flex;
+  column-gap: 1rem;
+  align-items: flex-end;
+
+  padding-block: 1rem;
+}
+
+ul {
+  list-style: " - ";
+}
+
+a {
+  color: unset;
+  text-decoration-color: #18a;
+  text-underline-offset: 0.2ex;
+  text-decoration-thickness: 2px;
+}
+
+hgroup h1 {
+  margin-bottom: 0.1rem;
+}
+
+hgroup p {
+  margin: 0;
+}
+
+blockquote {
+  border-left: solid #18a;
+  margin: 0;
+  padding: 0 1em;
+}
+
+code {
+  backdrop-filter: grayscale(30%) invert(20%);
+}
+
+pre { font-size: 110%; }
+
+pre code { backdrop-filter: unset; }
+
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+
+code span.al { font-weight: bold; } /* Alert */
+code span.an { font-style: italic; } /* Annotation */
+code span.cf { font-weight: bold; } /* ControlFlow */
+code span.co { font-style: italic; } /* Comment */
+code span.cv { font-style: italic; } /* CommentVar */
+code span.do { font-style: italic; } /* Documentation */
+code span.dt { text-decoration: underline; } /* DataType */
+code span.er { font-weight: bold; } /* Error */
+code span.in { font-style: italic; } /* Information */
+code span.kw { font-weight: bold; } /* Keyword */
+code span.pp { font-weight: bold; } /* Preprocessor */
+code span.wa { font-style: italic; } /* Warning */
