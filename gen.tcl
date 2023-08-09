@@ -107,6 +107,13 @@ proc renderabout {} {
         (Universidade de Brasília).
       </p>
 
+      <h2>work history</h2>
+      <ul>
+        <li>09-2022 to now: junior fullstack engineer @ <a href="https://placeti.com.br">placeti</a></li>
+        <li>03-2023 to 07-2022: software engineering intern @ <a href="https://www.linkedin.com/company/cb-lab/">cblab</a></li>
+        <li>09-2021 to 03-2022: software engineering intern @ <a href="https://placeti.com.br">placeti</a></li>
+      </ul>
+
       <h2>music</h2>
       <p>in alphabetical order, here are my favorite artists right now.</p>
       <ul>
@@ -124,7 +131,7 @@ proc renderabout {} {
         <li><a href="https://github.com/guilherme-puida">github</a></li>
         <li><a href="https://last.fm/user/guilherme-puida">last.fm</a></li>
         <li><a href="https://linkedin.com/in/guilherme-puida">linkedin</a></li>
-	<li><a href="https://mastodon.social/@puida">mastodon</a></li>
+        <li><a href="https://mastodon.social/@puida">mastodon</a></li>
         <li><a href="mailto:guilherme@puida.xyz">mail</a></li>
       </ul>
     </main>
