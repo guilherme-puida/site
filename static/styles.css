@@ -50,7 +50,7 @@ code {
   backdrop-filter: grayscale(30%) invert(20%);
 }
 
-pre { font-size: 110%; overflow: scroll; }
+pre { font-size: 110%; overflow-y: auto; max-width: 100%; }
 
 pre code { backdrop-filter: unset; }
 
