@@ -27,6 +27,7 @@ proc renderhtml {title content} {
     <html>
       <head>
         <link rel="stylesheet preload" href="/static/styles.css" as="style">
+        <link rel="icon" href="/static/favicon-32x32.png" width="32" height="32">
         <meta name="color-scheme" content="light dark">
         <meta charset="utf-8">
         <title>$title</title>
