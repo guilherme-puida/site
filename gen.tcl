@@ -111,7 +111,7 @@ proc renderabout {} {
       <h2>work history</h2>
       <ul>
         <li>09-2022 to now: junior fullstack engineer @ <a href="https://placeti.com.br">placeti</a></li>
-        <li>03-2023 to 07-2022: software engineering intern @ <a href="https://www.linkedin.com/company/cb-lab/">cblab</a></li>
+        <li>03-2023 to 09-2022: software engineering intern @ <a href="https://www.linkedin.com/company/cb-lab/">cblab</a></li>
         <li>09-2021 to 03-2022: software engineering intern @ <a href="https://placeti.com.br">placeti</a></li>
       </ul>
 
