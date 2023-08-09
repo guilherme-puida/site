@@ -98,6 +98,7 @@ Using those procedures, building posts is really easy:
 
 ```tcl
 # let chext be a procecure that changes the extension
+# of a file.
 
 # let posts be a list of lists, where the first element of every
 # inner list is a path to a markdown file.
