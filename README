@@ -2,3 +2,10 @@
 
 this repository holds the source code of my personal website, built with Tcl
 and Pandoc. give it a visit at https://puida.xyz
+
+= TODO =
+
+1. rss/atom/jsonfeed
+2. figure out better templating
+3. write a djot parser and use it instead of pandoc (this will be hard)
+  3.1 figure out syntax highlighting (maybe treesitter)
