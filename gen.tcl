@@ -20,7 +20,6 @@ proc chext {curfile ext} {
   return "[file rootname $curfile].$ext"
 }
 
-
 proc renderhtml {title content} {
   return [subst {
     <!DOCTYPE html>
@@ -132,12 +131,17 @@ proc renderabout {} {
   }]
 }
 
+proc render404 {} {
+  return [renderhtml {oops | puida.xyz} {<main><h1>you are not supposed to be here.</h1><p><a href="/">go back home</a></p></main>}]
+}
+
 set posts {
   {posts/blogging-with-tcl.md {Blogging with Tcl} 2023-08-07}
 }
 
 > [renderindex $posts] dist index.html
 > [renderabout] dist about.html
+> [render404] dist 404.html
 
 foreach post $posts {
   > [renderpost {*}$post] dist [chext [lindex $post 0] html]
