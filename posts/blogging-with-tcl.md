@@ -66,7 +66,7 @@ pandoc's stdout and use it directly in the `subst` templates.
 proc renderpost {filepath title} {
   set posthtml [exec pandoc --highlight-style=monochrome $filepath] 
 
-  return renderhtml [$title [subst {<article>$posthtml</article>}]]
+  return [renderhtml $title [subst {<article>$posthtml</article>}]]
 }
 ```
 
