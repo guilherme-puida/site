@@ -124,6 +124,7 @@ proc renderabout {} {
         <li><a href="https://github.com/guilherme-puida">github</a></li>
         <li><a href="https://last.fm/user/guilherme-puida">last.fm</a></li>
         <li><a href="https://linkedin.com/in/guilherme-puida">linkedin</a></li>
+        <li><a href="mailto:guilherme@puida.xyz">mail</a></li>
       </ul>
     </main>
   }]
