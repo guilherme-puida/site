@@ -121,10 +121,8 @@ proc renderabout {} {
         <li>chico buarque</li>
         <li>chon</li>
         <li>codinome winchester</li>
-        <li>daniel ceasar</li>
-        <li>delta sleep</li>
-        <li>floral</li>
-        <li>toe</li>
+        <li>loqto</li>
+        <li>tide/edit</li>
       </ul>
 
       <h2>links</h2>
