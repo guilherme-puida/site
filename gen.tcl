@@ -65,7 +65,7 @@ proc renderpost {filepath title date {updated ""}} {
         <h1>$title</h1>
         <p>[renderdate $date] $updated</p>
       </hgroup>
-      
+
       $posthtml
     </article>
   }]
@@ -82,7 +82,7 @@ proc renderindex {posts} {
 
   set content [subst {
     <main>
-      <h1>hi! i'm guilherme</h1> 
+      <h1>hi! i'm guilherme</h1>
       <p>
         i'm a software engineer from brazil.
         i like talking about functional programming, low-js websites and math rock
