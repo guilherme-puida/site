@@ -142,6 +142,7 @@ proc render404 {} {
 }
 
 set posts {
+  {posts/pushing-empty-commits.md {Pushing empty commits} 2023-10-23}
   {posts/blogging-with-tcl.md {Blogging with Tcl} 2023-08-07}
 }
 
