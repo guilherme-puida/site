@@ -154,6 +154,10 @@ foreach post $posts {
   > [renderpost {*}$post] dist [chext [lindex $post 0] html]
 }
 
-foreach static [fileutil::findByPattern static *] {
+proc isFile f {
+  return [file isfile $f]
+}
+
+foreach static [fileutil::find static isFile] {
   = $static dist/$static
 }
