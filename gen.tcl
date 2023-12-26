@@ -41,7 +41,7 @@ proc renderhtml {title content} {
         <footer>
           <a href="https://github.com/guilherme-puida">github</a>
           <a href="mailto:guilherme@puida.xyz">mail</a>
-          <small>[exec git rev-parse --short HEAD]</small>
+          <small>$::commithash</small>
         </footer>
       </body>
     </html>
@@ -141,6 +141,12 @@ proc render404 {} {
   return [renderhtml {oops | puida.xyz} {<main><h1>you are not supposed to be here.</h1><p><a href="/">go back home</a></p></main>}]
 }
 
+proc isFile f {
+  return [file isfile $f]
+}
+
+variable commithash [exec git rev-parse --short HEAD]
+
 set posts {
   {posts/deleting-one-hundred-thousand-loc.md {Deleting 100K lines of code} 2023-10-23}
   {posts/pushing-empty-commits.md {Pushing empty commits} 2023-10-21}
@@ -153,10 +159,6 @@ set posts {
 
 foreach post $posts {
   > [renderpost {*}$post] dist [chext [lindex $post 0] html]
-}
-
-proc isFile f {
-  return [file isfile $f]
 }
 
 foreach static [fileutil::find static isFile] {
