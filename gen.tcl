@@ -148,6 +148,7 @@ proc isFile f {
 variable commithash [exec git rev-parse --short HEAD]
 
 set posts {
+  {posts/debian-maintainer.md {I'm now a Debian Maintainer} 2024-03-21}
   {posts/three-body-problem.md {The Three Body Problem} 2024-01-03}
   {posts/deleting-one-hundred-thousand-loc.md {Deleting 100K lines of code} 2023-10-23}
   {posts/pushing-empty-commits.md {Pushing empty commits} 2023-10-21}
