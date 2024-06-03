@@ -108,6 +108,16 @@ proc renderabout {} {
         (Universidade de Brasília).
       </p>
 
+      <h2>contact (in order of preference)</h2>
+      <p>don't hesitate to double-message if i haven't answered in a couple days.</p>
+      <ul>
+        <li>email: guilherme@puida.xyz</li>
+        <li>matrix: @puida:matrix.debian.social</li>
+        <li>oftc: puida</li>
+        <li>libera.chat: puida</li>
+        <li>telegram: @gui_puida</li>
+      </ul>
+
       <h2>work history</h2>
       <ul>
         <li>09-2022 to now: junior fullstack engineer @ <a href="https://placeti.com.br">placeti</a></li>
@@ -131,7 +141,6 @@ proc renderabout {} {
         <li><a href="https://last.fm/user/guilherme-puida">last.fm</a></li>
         <li><a href="https://linkedin.com/in/guilherme-puida">linkedin</a></li>
         <li><a href="https://mastodon.social/@puida">mastodon</a></li>
-        <li><a href="mailto:guilherme@puida.xyz">mail</a></li>
       </ul>
     </main>
   }]
