@@ -1,3 +1,9 @@
++++
+title = "Pushing empty commits"
+date = 2023-10-21
+description = "Why and how to make empty git commits"
++++
+
 Sometimes I need to push to the remote to trigger CI workflows. This can happen
 if I don't have the necessary permissions to use the web interface.
 

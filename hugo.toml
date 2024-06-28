@@ -1,0 +1,15 @@
+baseURL = "https://puida.xyz"
+languageCode = "en-us"
+title = "puida.xyz"
+theme = "puida"
+disableKinds = ["taxonomy"]
+
+[params]
+  description = "puida's personal website"
+
+[frontmatter]
+  date = ["date"]
+  lastmod = ["lastmod"]
+
+[markup.highlight]
+  style = "bw"

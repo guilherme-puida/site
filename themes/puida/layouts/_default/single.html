@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <hgroup>
+    <h1>{{ .Title }}</h1>
+
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $dateHuman := .Date | time.Format "2006-01-02" }}
+    <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+
+    {{ with .Lastmod }}
+      {{ $dateMachine := .| time.Format "2006-01-02T15:04:05-07:00" }}
+      {{ $dateHuman := .| time.Format "2006-01-02" }}
+      (Updated: <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>)
+    {{ end }}
+  </hgroup>
+
+  {{ .Content }}
+{{ end }}

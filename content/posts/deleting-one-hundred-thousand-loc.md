@@ -1,7 +1,13 @@
++++
+title = "Deleting 100K lines of code"
+date = 2023-10-23
+description = "How I deleted 100 thousand lines of code"
++++
+
 I recently merged a branch that touched over 2600 files and deleted 100K lines
 of code. **In a project with no tests**.
 
-![Screenshot of the Gitlab interface showing the amount of changes in the merge request.](/static/img/changes.png)
+![Screenshot of the Gitlab interface showing the amount of changes in the merge request.](/img/changes.png)
 
 ## Why
 

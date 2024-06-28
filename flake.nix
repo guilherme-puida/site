@@ -18,6 +18,7 @@
         devShell = pkgs.mkShell {
           buildInputs = with pkgs; [
             nixfmt-rfc-style
+            hut
             hugo
           ];
         };

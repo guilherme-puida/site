@@ -1,0 +1,9 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  <ul class="article-list">
+    {{ range .Pages }}
+      {{ partial "list-entry.html" . }}
+    {{ end }}
+  </ul>
+{{ end }}

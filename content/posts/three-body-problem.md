@@ -1,3 +1,9 @@
++++
+title = "The Three Body Problem"
+date = 2024-01-03
+description = "A brief review of the Three Body Problem book series"
++++
+
 **Beware: There might be spoilers ahead.**
 
 I just finished reading the [Remembrance of Earth's Past] trilogy, a

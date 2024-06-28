@@ -1,3 +1,12 @@
++++
+title = "Blogging with Tcl"
+date = 2023-08-07
+lastmod = 2024-06-24
+description = "A custom static site generator written in Tcl"
++++
+
+**UPDATE: I moved my blog to hugo and no longer use this custom SSG.**
+
 My previous blog was built using [astro](https://astro.build). While it worked
 just fine, I was constantly lagging behind versions and dreaded the day
 that the build process would suddenly stop working.
@@ -11,11 +20,13 @@ I knew I wanted to keep authoring content in a markup language, since I'm not a
 big fan of writing HTML by hand. A somewhat acceptable (and easily accessible) option is
 [markdown](https://en.wikipedia.org/wiki/Markdown).
 
-Since I was already a [pandoc](https://github.com/jgm/pandoc) user ^[I use it
-to write school assignments and work presentations.], my first instict was writing
+Since I was already a [pandoc] user[^1], my first instict was writing
 the generator in bash. This turned out to not be a great idea, since the lack
 of basic data structures and constant need to quote variables to avoid disaster
 made the whole process tedious.
+
+[pandoc]: https://github.com/jgm/pandoc
+[^1]: I use it to write school assignments and work presentations.
 
 Since bash was out of the question, I needed a language that:
 
@@ -38,7 +49,8 @@ I think are interesting and useful when building webpages.
 ### Templating with `subst`
 
 Normally, commands and variables are not substituted when used inside bracket literals.
-However, we can use the `subst` command to make the substitutions anyways. This makes for an easy (but very powerful) templating language.
+However, we can use the `subst` command to make the substitutions anyways. This
+makes for an easy (but very powerful) templating language.
 
 ```tcl
 proc renderhtml {title content} {
@@ -64,7 +76,7 @@ pandoc's stdout and use it directly in the `subst` templates.
 
 ```tcl
 proc renderpost {filepath title} {
-  set posthtml [exec pandoc --highlight-style=monochrome $filepath] 
+  set posthtml [exec pandoc --highlight-style=monochrome $filepath]
 
   return [renderhtml $title [subst {<article>$posthtml</article>}]]
 }
@@ -97,7 +109,7 @@ proc = {origin args} {
 Using those procedures, building posts is really easy:
 
 ```tcl
-# let chext be a procecure that changes the extension
+# let chext be a procedure that changes the extension
 # of a file.
 
 # let posts be a list of lists, where the first element of every
@@ -115,10 +127,12 @@ ready! The whole ordeal took a day or so to complete, and that includes the
 time to figure out how Tcl works and deciding how I would structure the
 content.
 
-The complete script is available [on my github
-account](https://github.com/guilherme-puida/site). I'm not a Tcl expert, so
-there is probably a better way to structure and write the build script. If you
-have any suggestions, [shoot me an email](mailto:guilherme@puida.xyz) or open
-an issue on the repository.
+The complete script is available [on my github account]. I'm not a Tcl expert,
+so there is probably a better way to structure and write the build script. If
+you have any suggestions, [shoot me an email] or open an issue on the
+repository.
+
+[on my github account]: https://github.com/guilherme-puida/site
+[shoot me an email]: mailto:guilherme@puida.xyz
 
 See you next time!

@@ -1,0 +1,6 @@
+{
+  "notFound": "404.html",
+  "fileConfigs": [
+    { "glob": "*.css", "options": { "cacheControl": "max-age=15552000" } }
+  ]
+}

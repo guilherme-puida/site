@@ -1,0 +1,67 @@
+:root {
+  --mono: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.35;
+  min-height: 100vh;
+  max-width: 45rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+main {
+  flex-grow: 1;
+}
+
+header {
+  display: flex;
+  column-gap: 1rem;
+  align-items: flex-end;
+  padding-block-start: 1.5rem;
+}
+
+dl dt {
+  font-weight: bolder;
+  margin: 0.5rem 0 0;
+}
+
+dl dd {
+  margin-inline-start: 1.5rem;
+}
+
+a {
+  color: unset;
+  text-decoration-color: #18a;
+  text-underline-offset: 0.2ex;
+  text-decoration-thickness: 2px;
+}
+
+pre, code {
+  font-family: var(--mono);
+}
+
+ul {
+  list-style: square;
+}
+
+.article-list {
+  line-height: 1.6;
+}
+
+.article-list time {
+  font-family: var(--mono);
+  color: #434343;
+}
+
+.article-list time::after {
+  content: " "
+}
+
+.highlight {
+  overflow: auto;
+  padding: 0.6rem;
+}

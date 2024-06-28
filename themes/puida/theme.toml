@@ -1,0 +1,10 @@
+name = "puida"
+license = "MIT"
+licenselink = "https://opensource.org/licenses/MIT"
+description = "Personal custom theme"
+homepage = "https://git.sr.ht/~puida/site"
+demosite = "https://puida.xyz"
+
+[author]
+  name = "Guilherme Puida Moreira"
+  homepage = "https://puida.xyz"
