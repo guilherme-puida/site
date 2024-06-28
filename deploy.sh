@@ -5,3 +5,4 @@ sitetarball=site.tar.gz
 hugo --minify
 tar -C public -cvz . > "$sitetarball"
 hut pages publish -d puida.srht.site --site-config siteconfig.json "$sitetarball"
+hut pages publish -d puida.xyz --site-config siteconfig.json "$sitetarball"
