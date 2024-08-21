@@ -2,7 +2,9 @@ baseURL = "https://puida.xyz"
 languageCode = "en-us"
 title = "puida.xyz"
 theme = "puida"
-disableKinds = ["taxonomy"]
+
+[taxonomies]
+  tag = "tags"
 
 [params]
   description = "puida's personal website"
@@ -13,3 +15,7 @@ disableKinds = ["taxonomy"]
 
 [markup.highlight]
   style = "bw"
+
+[outputs]
+  taxonomy = ["RSS"]
+  term = ["RSS"]
