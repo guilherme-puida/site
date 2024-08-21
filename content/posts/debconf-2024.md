@@ -2,6 +2,7 @@
 title = "DebConf 24"
 date = 2024-08-08
 description = "What I did during DebConf 24"
+tags = ["debian"]
 +++
 
 I attended my first DebConf this year! It was held in Busan, South Korea, and

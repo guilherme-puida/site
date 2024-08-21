@@ -2,6 +2,7 @@
 title = "I'm now a Debian Maintainer"
 date = 2024-03-21
 description = "Announcing that I'm now a Debian Maintainer"
+tags = ["debian"]
 +++
 
 As of today (2024-03-12) I'm now a Debian Maintainer (DM). This means that I
