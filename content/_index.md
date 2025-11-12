@@ -41,7 +41,7 @@ TELEGRAM
 
 ## work history
 
-- 09-2022 to present: junior fullstack engineer @ [placeti]
+- 09-2022 to present: fullstack engineer @ [placeti]
 - 03-2022 to 09-2022: software engineering intern @ [cblab]
 - 09-2021 to 03-2022: software engineering intern @ [placeti]
 
