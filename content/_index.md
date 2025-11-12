@@ -12,7 +12,7 @@ weight = 500
 i'm a software engineer from brazil.
 
 i currently work as a fullstack engineer, messing around with angular and
-spring boot + kotlin. i'm also a debian maintainer (mostly packaging golang
+spring boot + kotlin. i'm also a debian developer (mostly packaging golang
 applications and libraries) and a fulltime software engineering student at UnB
 (Universidade de Brasília).
 
