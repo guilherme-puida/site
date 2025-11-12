@@ -1,8 +1,9 @@
-image: nixos/unstable
+image: debian/testing
 oauth: pages.sr.ht/PAGES:RW
-environment:
-  NIX_CONFIG: "experimental-features = nix-command flakes"
+packages:
+  - hugo
+  - hut
 tasks:
   - deploy: |
       cd site
-      nix develop --command bash deploy.sh
+      ./deploy.sh
