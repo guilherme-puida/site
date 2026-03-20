@@ -1,4 +1,4 @@
-image: debian/testing
+image: debian/stable
 oauth: pages.sr.ht/PAGES:RW
 packages:
   - hugo
