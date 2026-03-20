@@ -41,10 +41,12 @@ TELEGRAM
 
 ## work history
 
-- 09-2022 to present: fullstack engineer @ [placeti]
+- 01-2026 to present: associate software engineer @ [canonical]
+- 09-2022 to 12-2025: fullstack engineer @ [placeti]
 - 03-2022 to 09-2022: software engineering intern @ [cblab]
 - 09-2021 to 03-2022: software engineering intern @ [placeti]
 
+[canonical]: https://canonical.com
 [placeti]: https://placeti.com.br
 [cblab]: https://www.linkedin.com/company/cb-lab
 
