@@ -9,18 +9,19 @@ weight = 500
 
 # hi! i'm guilherme
 
-i'm a software engineer from brazil.
+i'm a software engineer (graduated at the end of 2025) from brazil.
 
-i currently work as a fullstack engineer, messing around with angular and
-spring boot + kotlin. i'm also a debian developer (mostly packaging golang
-applications and libraries) and a fulltime software engineering student at UnB
-(Universidade de Brasília).
+i currently work @ [canonical] as part of the Ubuntu Server team. i'm also a
+Debian Developer, mostly working on go applications and libraries.
+
+i'm also a big [rhythm game](https://osu.ppy.sh/users/6120302) enthusiast.
 
 ## contact me
 
 don't hesitate to double-message me if i don't answer in a couple of days.
 
 EMAIL
+: {{< relme "mailto:puida@debian.org" "puida@debian.org" >}}
 : {{< relme "mailto:guilherme@puida.xyz" "guilherme@puida.xyz" >}}
 
 MATRIX
