@@ -55,4 +55,5 @@ TELEGRAM
 
 - {{< relme "https://github.com/guilherme-puida" "github" >}}
 - {{< relme "https://sr.ht/~puida" "sr.ht" >}}
+- {{< relme "https://codeberg.org/puida" "codeberg" >}}
 - {{< relme "https://linkedin.com/in/guilherme-puida" "linkedin" >}}
